@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contacteaza-ma</title>
+  </head>
+  <body>
+    <h3>Ma puteti contacta la: </h3>
+    <ul>
+      <li>Numarul de telefon 0733786673</li>
+      <li>Email: tigau.iuliann@gmail.com</li>
+      <li>Mai jos veti gasi un formular de contact in vederea stabilirii unui consult endodontic.</li>
+      <form action="<a href="mailto:tigau.iuliann@gmail.com?subject=feedback"></a>
+        <label for="">Va contactez in calitate de</label>
+        <select name="calitateDe" id="">
+          <option value="pacient">Pacient</option>
+          <option value="medic">Medic dentist</option>
+        </select>
+        <br>
+        <label for="">Reprezinta situatia dumneavoastra o urgenta?</label>
+        <select name="urgenta" id="">
+          <option value="da">Da</option>
+          <option value="aman">Permite o usoara amanare</option>
+          <option value="nu">Nu</option>
+          </select>
+        <br>
+        <label for="">Va rog incarcati o radiografie relevanta impreuna cu poze clinice(format jpeg sau png)</label>
+        <input type="file" id="radiografie" name="radiografie" accept="image/jpeg, image/x-png">
+        <br>
+        <label for="programare">In ce perioada ati dori sa fie facuta programarea dumneavoastra?</label>
+        <input type="datetime-local">
+        <br>
+        <input type="submit">
+      </form>
+    </ul>
+
+  </body>
+  <footer>
+    <strong><a href="index.html">Inapoi la pagina principala</a></strong>
+  </footer>
+</html>
